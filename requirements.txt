@@ -1,2 +1,5 @@
-joblib~=1.5.2
-scikit-learn~=1.7.2
+fastapi
+uvicorn
+scikit-learn
+joblib
+pydantic
