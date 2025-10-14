@@ -9,7 +9,7 @@ import os
 # --- Configuration ---
 # The path must be relative to where the script is run.
 # We assume the model file is in the root directory relative to 'app/main.py'
-MODEL_PATH = os.path.join(os.path.dirname(__file__), '..', 'model', 'trained_model.pkl')
+MODEL_PATH = "trained_model.pkl"
 
 try:
     # 1. Load the Model Globally

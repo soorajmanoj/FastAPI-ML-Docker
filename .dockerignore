@@ -1,0 +1,18 @@
+# .dockerignore
+
+# Virtual Environment
+.venv
+venv
+*/.venv
+*/venv
+
+# IDE files (e.g., PyCharm)
+.idea/
+__pycache__/
+
+# Python build artifacts
+*.pyc
+*.pyo
+*~
+dist/
+build/
