@@ -21,12 +21,11 @@ This structure assumes the `Dockerfile` was moved to the project root for the fi
 ```mlops-docker-project/
 ├── app/
 │   ├── main.py            # FastAPI service (loads model, defines endpoints)
-│   ├── requirements.txt   # Python dependencies for the container
-│   └── (Dockerfile was here, now in root)
+│   └── requirements.txt   # Python dependencies for the container
 ├── model/
 │   └── trained_model.pkl  # The trained Logistic Regression model artifact
 ├── .dockerignore          # Files to exclude from the Docker build context
-├── Dockerfile             # Instructions for building the Docker image (moved here)
+├── Dockerfile             # Instructions for building the Docker image
 └── README.md              # This documentation 
 ```
 
