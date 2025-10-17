@@ -1,4 +1,4 @@
-# FastAPI-ML-Docker 📦
+# Foundational MLOps: A Containerized ML Prediction Service with FastAPI and Docker 📦
 
 ## 🎯 Project Overview
 This project demonstrates a core **MLOps** workflow: taking a trained Scikit-learn Machine Learning model, wrapping it in a **FastAPI** web service, and packaging the entire application into a portable **Docker** container.
