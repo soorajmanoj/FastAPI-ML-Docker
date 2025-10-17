@@ -1,7 +1,7 @@
-# FastAPI-ML-Docker: Iris Predictor Service 📦
+# FastAPI-ML-Docker 📦
 
 ## 🎯 Project Overview
-This project demonstrates a core **MLOps** workflow: taking a trained Scikit-learn Machine Learning model (an Iris classifier), wrapping it in a **FastAPI** web service, and packaging the entire application into a portable **Docker** container.
+This project demonstrates a core **MLOps** workflow: taking a trained Scikit-learn Machine Learning model, wrapping it in a **FastAPI** web service, and packaging the entire application into a portable **Docker** container.
 
 This setup ensures that the ML model can be consistently deployed and run on any environment that supports Docker, eliminating "it works on my machine" problems.
 
